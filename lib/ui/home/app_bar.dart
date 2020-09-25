@@ -19,7 +19,7 @@ class CustomAppBar extends AppBar {
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text('Foodie', style: TextStyle(color: AppPalette.dark, fontSize: 20, fontFamily: 'AvenirBold'))
+              Text('Foodie', style: TextStyle(color: AppPalette.dark, fontSize: 20, fontFamily: 'InterBold'))
             ],
           ),
           Row(

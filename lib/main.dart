@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Foodie',
       theme: ThemeData(
-        fontFamily: 'Avenir',
+        fontFamily: 'Inter',
         backgroundColor: Colors.white,
         scaffoldBackgroundColor: Colors.white,
         primaryColor: AppPalette.green,

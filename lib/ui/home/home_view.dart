@@ -87,11 +87,11 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Text(
                   "MY WALLET",
-                  style: TextStyle(color: Colors.white, fontFamily: "AvenirBold"),
+                  style: TextStyle(color: Colors.white, fontFamily: "InterBold"),
                 ),
                 Text(
                   "IDR 120.000",
-                  style: TextStyle(color: Colors.white, fontFamily: "AvenirBold"),
+                  style: TextStyle(color: Colors.white, fontFamily: "InterBold"),
                 )
               ],
             ),
@@ -277,7 +277,7 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Text(
                   "Foodie Category",
-                  style: TextStyle(fontFamily: "AvenirBold", fontSize: 18),
+                  style: TextStyle(fontFamily: "InterBold", fontSize: 18),
                 ),
                 OutlineButton(
                   color: AppPalette.green,

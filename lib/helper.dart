@@ -46,7 +46,7 @@ class Helper {
       Category(
         category: 'Noodles',
         icon: 'assets/icons/category-noodles.png',
-        description: "Noodles and spagethy"
+        description: "Noodles and spaghetti"
       ),
       Category(
         category: 'Fast Food',
@@ -76,7 +76,7 @@ class Helper {
       Category(
         category: 'Bread',
         icon: 'assets/icons/category-bread.png',
-        description: "Soup, yummy"
+        description: "Dry bread"
       ),
       Category(
         category: 'Cookie',
@@ -84,9 +84,9 @@ class Helper {
         description: "Cookie and biscuit"
       ),
       Category(
-        category: 'Japanesse',
-        icon: 'assets/icons/category-japanesse.png',
-        description: "Chinese and japanese food"
+        category: 'Japanese',
+        icon: 'assets/icons/category-japanese.png',
+        description: "Korean, chinese and japanese food"
       ),
       Category(
         category: 'Sausage',
