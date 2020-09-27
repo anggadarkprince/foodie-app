@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppPalette {
+  static Color white        = Color.fromARGB(255, 255, 255, 255);
   static Color dark         = Color.fromARGB(255, 20, 20, 20);
   static Color green        = Color.fromARGB(255, 69, 170, 74);
   static Color darkGrey     = Color.fromARGB(255, 180, 180, 180);
@@ -21,4 +22,11 @@ class AppPalette {
 
 class AppSize {
   static double baseSpace   = 16;
+}
+
+class AppFontFamily {
+  static String primaryRegular = 'Inter';
+  static String primaryLight = 'InterLight';
+  static String primaryBold = 'InterBold';
+  static String primaryBlack = 'InterBlack';
 }

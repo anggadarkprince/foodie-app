@@ -36,6 +36,9 @@ dependencies:
   cached_network_image: ^2.3.2+1
   equatable: ^1.2.5
   dio: ^3.0.10
+  shared_preferences: ^0.5.12
+  flutter_secure_storage: ^3.3.4
+  email_validator: ^1.0.5
 
 dev_dependencies:
   flutter_test:
@@ -68,7 +71,14 @@ flutter:
   fonts:
     - family: Inter
       fonts:
-        - asset: assets/fonts/Inter.otf
+        - asset: assets/fonts/Inter.ttf
     - family: InterBold
       fonts:
-        - asset: assets/fonts/InterBold.otf
+        - asset: assets/fonts/InterBold.ttf
+    - family: InterLight
+      fonts:
+        - asset: assets/fonts/InterLight.ttf
+    - family: InterBlack
+      fonts:
+        - asset: assets/fonts/InterBlack.ttf
+

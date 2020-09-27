@@ -87,11 +87,11 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Text(
                   "MY WALLET",
-                  style: TextStyle(color: Colors.white, fontFamily: "InterBold"),
+                  style: TextStyle(color: Colors.white, fontFamily: AppFontFamily.primaryBold),
                 ),
                 Text(
                   "IDR 120.000",
-                  style: TextStyle(color: Colors.white, fontFamily: "InterBold"),
+                  style: TextStyle(color: Colors.white, fontFamily: AppFontFamily.primaryBold),
                 )
               ],
             ),
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                   children: <Widget>[
                     Icon(Icons.swap_calls_outlined, color: Colors.white, size: 30),
                     SizedBox(height: 10),
-                    Text("SEND", style: TextStyle(color: Colors.white, fontSize: 12))
+                    Text("SEND", style: TextStyle(color: Colors.white, fontSize: 12, fontFamily: AppFontFamily.primaryRegular))
                   ],
                 ),
                 Column(
@@ -158,7 +158,7 @@ class _HomePageState extends State<HomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text('Hi, ', style: TextStyle(fontSize: 16)),
-              Text('Angga Ari Wijaya', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              Text('Angga Ari Wijaya', style: TextStyle(fontSize: 20, fontFamily: AppFontFamily.primaryBold)),
             ],
           ),
           SizedBox(height: 5),
@@ -237,11 +237,12 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.symmetric(horizontal: AppSize.baseSpace),
-            child: Text("Nearby", style: TextStyle(fontWeight: FontWeight.bold)),
+            child: Text("Nearby", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
           ),
+          SizedBox(height: 5),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: AppSize.baseSpace),
-            child: Text("Food around you"),
+            child: Text("Food around you", style: TextStyle(color: AppPalette.darkGrey)),
           ),
           SizedBox(
             height: 200,
